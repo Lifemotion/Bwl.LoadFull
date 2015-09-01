@@ -41,7 +41,7 @@ Partial Class frmMain
         'tbCores
         '
         Me.tbCores.Location = New System.Drawing.Point(3, 25)
-        Me.tbCores.Maximum = 4
+        Me.tbCores.Maximum = 16
         Me.tbCores.Minimum = 1
         Me.tbCores.Name = "tbCores"
         Me.tbCores.Size = New System.Drawing.Size(359, 45)

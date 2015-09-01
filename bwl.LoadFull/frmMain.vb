@@ -2,6 +2,10 @@
     Private percentOfLoad As Integer = 0
     Private cores As Integer = 1
     Private random As New Random
+
+    Private Sub frmMain_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        Application.Exit()
+    End Sub
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Threading.Thread.CurrentThread.Priority = Threading.ThreadPriority.AboveNormal
         For i = 1 To 4
